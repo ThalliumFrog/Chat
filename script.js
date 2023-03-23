@@ -1,33 +1,23 @@
-function pcpl() {epev = "SG9sbWl1bU9yYW5nZTgxOTg1NQ==";epml = "RGFybXN0YWR0aXVtR3JlZW41NDUxMjQ=";epcm = "TGVhZFB1cnBsZTIwNDg5Mw==";epbl = "Y293c2F5";passworderikv = atob(epev);passwordmasonl = atob(epml);passwordcalebm = atob(epcm);passwordbradyl = atob(epbl);}
-
 alert("NOTICE!");
 alert("This chat follows isd196 rules.");
 alert("By violating any rules your account will be terminated.");
 
 passwordatmpt = prompt("Enter Password");
 
-function getName() {
-  
-  pcpl();
-  
-  if (passwordatmpt==passworderikv) {
-    username = "Erik VanMinsel";
-  }
-  
-  if (passwordatmpt==passwordmasonl) {
-    username = "Mason Lapp";
-  }
-  
-  if (passwordatmpt==passwordcalebm) {
-    username = "Caleb Mueller";
-  }
-  
-  if (passwordatmpt==passwordbradyl) {
-    username = "Brady Lemaster";
-  }
-  
+function getName() { 
+  epev="SG9sbWl1bU9yYW5nZTgxOTg1NQ==";passworderikv=atob(epev);
+  if (passwordatmpt==passworderikv) {username = "Erik VanMinsel";}
+  passworderikv = "clr";
+  epml="RGFybXN0YWR0aXVtR3JlZW41NDUxMjQ=";passwordmasonl=atob(epml);
+  if (passwordatmpt==passwordmasonl) {username = "Mason Lapp";}
+  passwordmasonl = "clr";
+  epcm="TGVhZFB1cnBsZTIwNDg5Mw==";passwordcalebm=atob(epcm);
+  if (passwordatmpt==passwordcalebm) {username = "Caleb Mueller";}
+  passwordcalebm = "clr";
+  epbl="Y293c2F5";passwordbradyl=atob(epbl);
+  if (passwordatmpt==passwordbradyl) {username = "Brady Lemaster";}
+  passwordbradyl = "clr";
   return username
-  
 }
 
 const CLIENT_ID = 'HbfBa2vZG45ihRaF';
