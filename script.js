@@ -4,6 +4,13 @@ alert("If one uses extreme language their account will be terminated.");
 
 passwordatmpt = prompt("Enter Password");
 
+scr1="Z2dzY3J1Yno=";prpro=atob(scr1);scr1="clr";
+if (passwordatmpt=="prpro") {username = prompt("Enter Username");CLIENT_IDx = 'hWmT5ZuGe51IgiMD';}
+prpro = "clr";
+
+scr2="bW9kZXJhdG9y=";mdrtr=atob(scr2);scr2="clr";
+if (passwordatmpt==mdrtr) {username = prompt("Enter Username");)
+mdrtr = "clr";
 
 CLIENT_IDx = 'HbfBa2vZG45ihRaF';
 
@@ -26,9 +33,6 @@ function getName() {
   eptme="TmVvblllbGxvdzc2ODgxMw==";passwordtuckerm=atob(eptme);eptme="clr";
   if (passwordatmpt==passwordtuckerm) {username = "Tucker";}
   passwordtuckerm = "clr";
-  scr1="Z2dzY3J1Yno=";prpro=atob(scr1);scr1="clr";
-  if (passwordatmpt=="prpro") {username = prompt("Enter Username");CLIENT_IDx = 'hWmT5ZuGe51IgiMD';}
-  prpro = "clr";
   return username
 }
 
