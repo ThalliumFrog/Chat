@@ -1,7 +1,4 @@
-passworderikv = "HolmiumOrange819855";  
-passwordmasonl = "DarmstadtiumGreen545124";  
-passwordcalebm = "LeadPurple204893";  
-passwordbradyl = "cowsay";  
+function pcpl() {epev = "SG9sbWl1bU9yYW5nZTgxOTg1NQ==";epml = "RGFybXN0YWR0aXVtR3JlZW41NDUxMjQ=";epcm = "TGVhZFB1cnBsZTIwNDg5Mw==";epbl = "Y293c2F5";passworderikv = atob(epev);passwordmasonl = atob(epml);passwordcalebm = atob(epcm);passwordbradyl = atob(epbl);}
 
 alert("NOTICE!");
 alert("This chat follows isd196 rules.");
@@ -10,6 +7,8 @@ alert("By violating any rules your account will be terminated.");
 passwordatmpt = prompt("Enter Password");
 
 function getName() {
+  
+  pcpl();
   
   if (passwordatmpt==passworderikv) {
     username = "Erik VanMinsel";
