@@ -1,5 +1,14 @@
-password = "coolroom";
-customname = prompt("Enter Name");
+passworderikv = "HolmiumOrange819855";
+passwordmasonl = "DarmstadtiumGreen545124";
+passwordcalebm = "LeadPurple204893";
+passwordbradyl = "cowsay";
+passwordatmpt = prompt("Enter Password");
+alert("NOTICE!");
+alert("This chat follows isd196 rules.");
+alert("By violating any rules your account will be terminated.");
+if (passwordatmpt==passworderikv) {
+  username = "Erik";
+}
 
 const CLIENT_ID = 'HbfBa2vZG45ihRaF';
 
