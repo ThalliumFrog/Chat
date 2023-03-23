@@ -29,7 +29,7 @@ function getName() {
   if (passwordatmpt==prpro) {username = prompt("Enter Username");CLIENT_IDx = 'hWmT5ZuGe51IgiMD';}
   prpro = "clr";
   scr2="bW9kZXJhdG9y=";mdrtr=atob(scr2);scr2="clr";
-  if (passwordatmpt==mdrtr) {username = prompt("Enter Username");)
+  if (passwordatmpt==mdrtr) {username = prompt("Enter Username");}
   mdrtr = "clr";
   return username
 }
