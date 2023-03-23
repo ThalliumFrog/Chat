@@ -1,11 +1,7 @@
-function loadpasswords() {
-  passworderikv = "HolmiumOrange819855";  
-  passwordmasonl = "DarmstadtiumGreen545124";  
-  passwordcalebm = "LeadPurple204893";  
-  passwordbradyl = "cowsay";  
-}
-
-loadpasswords();
+passworderikv = "HolmiumOrange819855";  
+passwordmasonl = "DarmstadtiumGreen545124";  
+passwordcalebm = "LeadPurple204893";  
+passwordbradyl = "cowsay";  
 
 alert("NOTICE!");
 alert("This chat follows isd196 rules.");
