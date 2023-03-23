@@ -34,7 +34,7 @@ function getName() {
   return username
 }
 
-const CLIENT_ID = CLIENT_IDx
+const CLIENT_ID = CLIENT_IDx;
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
