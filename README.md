@@ -1,1 +1,1 @@
-Inproved the UGPS chat!
+Personal chat for me and my friends.
