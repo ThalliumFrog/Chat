@@ -1,6 +1,7 @@
-hckname = prompt("client.name");
+password = "coolroom";
+customname = prompt("Enter Name");
 
-const CLIENT_ID = 'hWmT5ZuGe51IgiMD';
+const CLIENT_ID = 'HbfBa2vZG45ihRaF';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
@@ -60,7 +61,7 @@ drone.on('error', error => {
 });
 
 function getRandomName() {
-  return hckname
+  return customname
 }
 
 function getRandomColor() {
