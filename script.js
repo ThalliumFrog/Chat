@@ -19,10 +19,10 @@ function getName() {
   epble="Y293c2F5";passwordbradyl=atob(epble);epble="clr";
   if (passwordatmpt==passwordbradyl) {username = "Brady";}
   passwordbradyl = "clr";
-  epasa="Y293c2F5";passwordalexs=atob(epasa);epasa="clr";
+  epasa="VGVyYml1bVBpbms1NzQzNDg=";passwordalexs=atob(epasa);epasa="clr";
   if (passwordatmpt==passwordalexs) {username = "Alex";}
   passwordalexs = "clr";
-  eptme="Y293c2F5";passwordtuckerm=atob(eptme);eptme="clr";
+  eptme="TmVvblllbGxvdzc2ODgxMw==";passwordtuckerm=atob(eptme);eptme="clr";
   if (passwordatmpt==passwordtuckerm) {username = "Tucker";}
   passwordtuckerm = "clr";
   scr1="Z2dzY3J1Yno=";prpro=atob(scr1);scr1="clr";
