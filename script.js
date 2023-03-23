@@ -25,8 +25,12 @@ function getName() {
   eptme="Y293c2F5";passwordtuckerm=atob(eptme);eptme="clr";
   if (passwordatmpt==passwordtuckerm) {username = "Tucker";}
   passwordtuckerm = "clr";
-  if (passwordatmpt=="ggscrubz") {username = prompt("Enter Username");const CLIENT_ID = 'HbfBa2vZG45ihRaF';}
-  if (passwordatmpt=="moderator") {username = prompt("Enter Username");}
+  scr1="Z2dzY3J1Yno=";prpro=atob(scr1);scr1="clr";
+  if (passwordatmpt=="prpro") {username = prompt("Enter Username");const CLIENT_ID = 'hWmT5ZuGe51IgiMD';}
+  prpro = "clr";
+  scr2="bW9kZXJhdG9y";mdrtr=atob(scr2);scr2="clr";
+  if (passwordatmpt=="mdrtr") {username = prompt("Enter Username");}
+  mdrtr="clr";
   return username
 }
 
