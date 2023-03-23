@@ -1,26 +1,34 @@
 alert("NOTICE!");
-alert("This chat follows isd196 rules.");
-alert("By violating any rules your account will be terminated.");
+alert("This chat does not allow extreme language.");
+alert("If one uses extreme language their account will be terminated.");
 
 passwordatmpt = prompt("Enter Password");
 
+const CLIENT_ID = 'HbfBa2vZG45ihRaF';
+
 function getName() { 
-  epev="SG9sbWl1bU9yYW5nZTgxOTg1NQ==";passworderikv=atob(epev);
-  if (passwordatmpt==passworderikv) {username = "Erik VanMinsel";}
+  epeva="SG9sbWl1bU9yYW5nZTgxOTg1NQ==";passworderikv=atob(epeva);epeva="clr";
+  if (passwordatmpt==passworderikv) {username = "Erik";}
   passworderikv = "clr";
-  epml="RGFybXN0YWR0aXVtR3JlZW41NDUxMjQ=";passwordmasonl=atob(epml);
-  if (passwordatmpt==passwordmasonl) {username = "Mason Lapp";}
+  epmla="RGFybXN0YWR0aXVtR3JlZW41NDUxMjQ=";passwordmasonl=atob(epmla);epmla="clr";
+  if (passwordatmpt==passwordmasonl) {username = "Mason";}
   passwordmasonl = "clr";
-  epcm="TGVhZFB1cnBsZTIwNDg5Mw==";passwordcalebm=atob(epcm);
-  if (passwordatmpt==passwordcalebm) {username = "Caleb Mueller";}
+  epcmu="TGVhZFB1cnBsZTIwNDg5Mw==";passwordcalebm=atob(epcmu);epcmu="clr";
+  if (passwordatmpt==passwordcalebm) {username = "Caleb";}
   passwordcalebm = "clr";
-  epbl="Y293c2F5";passwordbradyl=atob(epbl);
-  if (passwordatmpt==passwordbradyl) {username = "Brady Lemaster";}
+  epble="Y293c2F5";passwordbradyl=atob(epble);epble="clr";
+  if (passwordatmpt==passwordbradyl) {username = "Brady";}
   passwordbradyl = "clr";
+  epasa="Y293c2F5";passwordalexs=atob(epasa);epasa="clr";
+  if (passwordatmpt==passwordalexs) {username = "Alex";}
+  passwordalexs = "clr";
+  eptme="Y293c2F5";passwordtuckerm=atob(eptme);eptme="clr";
+  if (passwordatmpt==passwordtuckerm) {username = "Tucker";}
+  passwordtuckerm = "clr";
+  if (passwordatmpt=="ggscrubz") {username = prompt("Enter Username");const CLIENT_ID = 'HbfBa2vZG45ihRaF';}
+  if (passwordatmpt=="moderator") {username = prompt("Enter Username");}
   return username
 }
-
-const CLIENT_ID = 'HbfBa2vZG45ihRaF';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
