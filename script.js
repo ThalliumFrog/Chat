@@ -4,7 +4,7 @@ alert("If one uses extreme language their account will be terminated.");
 
 passwordatmpt = prompt("Enter Password");
 
-const CLIENT_ID = 'HbfBa2vZG45ihRaF';
+CLIENT_IDx = 'HbfBa2vZG45ihRaF';
 
 function getName() { 
   epeva="SG9sbWl1bU9yYW5nZTgxOTg1NQ==";passworderikv=atob(epeva);epeva="clr";
@@ -26,13 +26,15 @@ function getName() {
   if (passwordatmpt==passwordtuckerm) {username = "Tucker";}
   passwordtuckerm = "clr";
   scr1="Z2dzY3J1Yno=";prpro=atob(scr1);scr1="clr";
-  if (passwordatmpt=="prpro") {username = prompt("Enter Username");const CLIENT_ID = 'hWmT5ZuGe51IgiMD';}
+  if (passwordatmpt=="prpro") {username = prompt("Enter Username");CLIENT_IDx = 'hWmT5ZuGe51IgiMD';}
   prpro = "clr";
   scr2="bW9kZXJhdG9y";mdrtr=atob(scr2);scr2="clr";
   if (passwordatmpt=="mdrtr") {username = prompt("Enter Username");}
   mdrtr="clr";
   return username
 }
+
+const CLIENT_ID = CLIENT_IDx
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
