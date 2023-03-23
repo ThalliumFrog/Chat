@@ -1,20 +1,45 @@
-passworderikv = "HolmiumOrange819855";
-passwordmasonl = "DarmstadtiumGreen545124";
-passwordcalebm = "LeadPurple204893";
-passwordbradyl = "cowsay";
-passwordatmpt = prompt("Enter Password");
+function loadpasswords() {
+  passworderikv = "HolmiumOrange819855";  
+  passwordmasonl = "DarmstadtiumGreen545124";  
+  passwordcalebm = "LeadPurple204893";  
+  passwordbradyl = "cowsay";  
+}
+
+loadpasswords();
+
 alert("NOTICE!");
 alert("This chat follows isd196 rules.");
 alert("By violating any rules your account will be terminated.");
-if (passwordatmpt==passworderikv) {
-  username = "Erik";
+
+passwordatmpt = prompt("Enter Password");
+
+function getName() {
+  
+  if (passwordatmpt==passworderikv) {
+    username = "Erik VanMinsel";
+  }
+  
+  if (passwordatmpt==passwordmasonl) {
+    username = "Mason Lapp";
+  }
+  
+  if (passwordatmpt==passwordcalebm) {
+    username = "Caleb Mueller";
+  }
+  
+  if (passwordatmpt==passwordbradyl) {
+    username = "Brady Lemaster";
+  }
+  
+  return username
+  
 }
 
 const CLIENT_ID = 'HbfBa2vZG45ihRaF';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
-    name: getRandomName(),
+    name: getName(),
     color: getRandomColor(),
   },
 });
@@ -68,10 +93,6 @@ drone.on('close', event => {
 drone.on('error', error => {
   console.error(error);
 });
-
-function getRandomName() {
-  return customname
-}
 
 function getRandomColor() {
   return '#' + Math.floor(Math.random() * 0xFFFFFF).toString(16);
