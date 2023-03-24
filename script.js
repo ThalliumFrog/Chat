@@ -1,6 +1,6 @@
 alert("NOTICE!");
 alert("This chat does not allow extreme language.");
-alert("If one uses extreme language their account will be terminated.");
+alert("On breaking this rule account will be terminated.");
 
 passwordatmpt = prompt("Enter Password");
 
