@@ -5,7 +5,7 @@ alert("On breaking this rule account will be terminated.");
 passwordatmpt = prompt("Enter Password");
 
 function getName() { 
-  epeva="SG9sbWl1bU9yYW5nZTgxOTg1NQ==";passworderikv=atob(epeva);epeva="clr";
+  epeva="account terminated";passworderikv=atob(epeva);epeva="clr";
   if (passwordatmpt==passworderikv) {username = "Erik";}
   passworderikv = "clr";
   epmla="RGFybXN0YWR0aXVtR3JlZW41NDUxMjQ=";passwordmasonl=atob(epmla);epmla="clr";
